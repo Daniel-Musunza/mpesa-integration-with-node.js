@@ -54,9 +54,9 @@ app.get("/stkpush", (req, res) => {
             Timestamp: timestamp,
             TransactionType: "CustomerPayBillOnline",
             Amount: "1",
-            PartyA: "254794711950",
+            PartyA: "your Phone number starting with 254",
             PartyB: "174379",
-            PhoneNumber: "254794711950",
+            PhoneNumber: "Your Phone Number starting with 254",
             CallBackURL: "https://umeskiasoftwares.com/umswifi/callback",
             AccountReference: "Your Account Number",
             TransactionDesc: "Mpesa Daraja API stk push test",
@@ -173,8 +173,8 @@ app.get("/b2curlrequest", (req, res) => {
       
 // ACCESS TOKEN FUNCTION
 function getAccessToken() {
-  const consumer_key = "2nPzhQHjgTeTLyoWufwbG7pZTeLQPJex";
-  const consumer_secret = "OhyoizXdu6GP6eWf";
+  const consumer_key = "xxxxxxxxxxxxxxxxxxxxxxxxx";
+  const consumer_secret = "xxxxxxxxxxxxx";
   const url =
     "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials";
   const auth =
